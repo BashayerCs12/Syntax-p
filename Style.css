@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+#content {
+    height: 960px;
+    background-color: grey;
+}
+
+#Header {
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+#Header #LOGO {
+    height: 90px;
+    width: 115px;
+    margin-top: 10px;
+    margin-left: 23px;
+    ;
+}
+
+#Header ul li {
+    text-align: center;
+    border: 0.5px solid  #F5F5F5;
+    float: left;
+    height: 110px;
+    width: 200px;
+
+}
+
+#Header ul  li:hover {
+    border: 0.2px solid #F5F5F5;
+    border-top: 2px solid #9ACD32;
+    background-color: #F5F5F5;
+    
+
+}
+#Header ul li a #NavText:hover{
+    
+    color: #9ACD32;
+    text-shadow: 0 1px 0 #ccc;
+}
+
+#Header ul li a p {
+    position: relative;
+    top: 43px;
+    font-family: 'Changa', sans-serif;
+    font-size: 17px;
+    color: #004000;
+}
+
+
+#Header ul {
+    list-style-type: none;
+    position: absolute;
+    /*to make menu in the right*/
+    left: 329px;
+    /*to make menu in the right*/
+    right: 0px;
+    /*to make menu in the right*/
+    top: 0px;
+
+}
+.btton{
+    font-family: 'Changa', sans-serif;
+    position: relative;
+    border-radius: 80%;
+    text-align: center;
+    border: 2px solid black;
+    display: block;
+    text-decoration: none;
+    left: 400px;
+}
+
+#mainDiv {
+    height:815px;
+   background-color: #66CC99;
+   background-blend-mode:soft-light;
+}
+#mainDiv h1 {
+    font-family: 'Changa', sans-serif;
+    position: relative;
+    top:50%;
+    left: 297px;
+    font-size: 43px;
+    color:#004000;
+    transition: .5s;
+}
+.btton{
+    font-family: 'Changa', sans-serif;
+    position: relative;
+    border-radius: 80px;
+    height: 50px;
+    width: 125px;
+    line-height: 48px;
+    text-align: center;
+    border: 2px solid #004000;
+    margin-left: 250px;
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    top:50%;
+    color:#004000;
+    background: transparent;
+    transition: .4s;
+}
+.btton:hover{
+    color: #004000;
+    background:#EB6739;
+}
+.btton:hover:before{
+    top:0;
+}
+.btton:hover:after{
+    top:0;
+}
+/*#Game{
+    background-image: 
+    url(../Imgs/Bakground.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+    position: absolute;
+ 
+  background-color: #9ACD32;
+  height: 700px;
+  width: 700px;
+ 
+}*/
+#Abou_us_Div {
+    height:500px;
+    background-color: gold;
+}
+#Abou_us_Div h1 {
+    position: relative;
+    right: 250px;
+    top:7%;
+    font-size: 20px;
+
+}
+
+#Abou_us_Div1 {
+    height:350px;
+    width: 350px;
+    border-radius: 5px;
+    position: relative;
+    left:25px;
+    top:10%;
+    float: left;
+    background-color:red;
+    margin: 25px;
+}
+#img_small_div{
+    height: 130px;
+    width: 150px;
+    position: relative;
+    left:30%;
+    top:7%;
+}
+#text_small_div{
+font-size: 20px;
+max-height: 100%;
+position: relative;
+top:20%;
+padding: 15px;
+font-weight: 20px;
+
+
+
+}
+#Abou_us_Div2 {
+    height:350px;
+    width: 350px;
+    border-radius: 5px;
+    position: relative;
+    left:25px;
+        top:10%;
+    float: left;
+    background-color:green;
+    margin: 25px;
+}
+#Abou_us_Div3 {
+     height:350px;
+     width: 350px;
+    border-radius: 5px;
+    position: relative;
+    left:25px;
+    
+    top:10%;
+    float: left;
+    background-color:blue;
+    margin: 25px;
+}
+#Abou_us_Div4 {
+    height:350px;
+    width: 250px;
+    border-radius: 5px;
+    position: relative;
+    left:25px;
+    top:10%;
+    float: left;
+    background-color:rgb(186, 186, 204);
+    margin: 25px;
+}
+#footer {
+    height: 250px;
+    background-color: lightcoral;
+}
+#footer a:hover{
+    width: 25;
+    height: 25;
+    
+}
+#footer a img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:40%;
+    left:500px;
+    margin: 10px;
+}
